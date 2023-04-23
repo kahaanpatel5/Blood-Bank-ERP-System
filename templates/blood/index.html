@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/homepage.jpg" %}') !important;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px; padding-top:200px !important; " class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
+      
+      <br><br><br><br>
+      
+    </div>  
+  </section>
+  {% include "blood/footer.html" %}
+
+
+</body>
+
+</html>
+<!--
+developed By : sumit kumar
+facebook : fb.com/sumit.luv
+youtube : youtube.com/lazycoders
+-->
